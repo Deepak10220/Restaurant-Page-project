@@ -1,0 +1,21 @@
+#restraunts{
+    margin-top: 5.5rem;
+}
+
+#search-box{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+#search-box > input{
+    padding: 0.4rem;
+}
+
+#restraunt-cards{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    display: grid;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    display:flex;
+    background-color: #111827;
+    color: white;
+    justify-content: space-around;
+    height: 60px;
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+    
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+}
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 20px;
+} 
